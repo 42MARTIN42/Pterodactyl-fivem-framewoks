@@ -28,7 +28,6 @@ tasks:
 
   # Download basic resources and ESX dependencies
 
-  - action: connect_database
 
   - action: download_github
     src: https://github.com/Bob74/bob74_ipl
