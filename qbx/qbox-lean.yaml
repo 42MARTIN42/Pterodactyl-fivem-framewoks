@@ -28,11 +28,6 @@ tasks:
     src: ./tmp/qbox/myLogo.png
     dest: ./myLogo.png
 
-  # Prepare Database
-  - action: connect_database
-  - action: query_database
-    file: ./tmp/qbox/qbox.sql
-
   # STANDALONE
   - action: download_github
     src: https://github.com/citizenfx/cfx-server-data
