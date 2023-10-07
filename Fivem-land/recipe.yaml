@@ -34,8 +34,6 @@ tasks:
     src: ./tmp/recipe/fivemland.png
     dest: ./fivemland.png
 
-  - action: connect_database
-
   ## Download esx core
   - action: download_github
     src: https://github.com/esx-framework/esx-core
