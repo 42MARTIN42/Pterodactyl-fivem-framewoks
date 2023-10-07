@@ -44,9 +44,6 @@ tasks:
     src: ./tmp/core/[core]
     dest: ./resources/[core]
 
-  - action: query_database
-    file: ./tmp/core/[SQL]/legacy.sql
-
   ## Download esx-addons
 
   - action: download_github
