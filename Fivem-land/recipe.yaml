@@ -248,9 +248,6 @@ tasks:
     src: ./tmp/npwd.zip
     dest: ./resources
 
-  - action: query_database
-    file: ./resources/npwd/import.sql
-
   - action: replace_string
     file: ./resources/npwd/config.json
     search: '"useResourceIntegration": false'
